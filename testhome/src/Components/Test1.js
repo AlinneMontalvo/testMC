@@ -64,7 +64,7 @@ class Test1 extends Component {
                 <a href="#" class="btn btn-primary">Sabado</a>
                 </div>
             </div>
-            );
+        )
     }
 }
 export default Test1;
