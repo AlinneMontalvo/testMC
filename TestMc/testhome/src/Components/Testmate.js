@@ -73,7 +73,7 @@ class Test2 extends Component {
                 <a href="#" className="btn btn-primary">Cuatro</a>
                 </div>
             </div>
-    };
+    }
 }
     
 

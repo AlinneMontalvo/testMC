@@ -7,6 +7,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar'
 import HomeTest from './Components/HomeTest';
+import Testmichi from './Testmichi';
 class App extends Component {
   render(){
   return (
@@ -15,6 +16,10 @@ class App extends Component {
       <div className="container">
         <HomeTest/>
       </div>
+    </div>
+
+    <div>
+      <Testmichi/>
     </div>
   );
 }
