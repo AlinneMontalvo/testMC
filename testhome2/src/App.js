@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Testmate from './Components/Testmate'
 import Testmichi from './Components/Testmichi'
-import HomeTest from './Components/HomeTest';
+
 
 class App extends Component {
   render(){
