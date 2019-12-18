@@ -5,23 +5,27 @@ import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './Components/Navbar'
-import HomeTest from './Components/HomeTest';
-import Testmichi from './Testmichi';
+import Testmate from './Components/Testmate'
+import Testmichi from './Components/Testmichi'
+
+
 class App extends Component {
   render(){
   return (
+  <div>
+    
     <div>
-      <Navbar />
-      <div className="container">
-        <HomeTest/>
-      </div>
-    </div>
+      <Testmate/>
 
+      </div>
+   
     <div>
       <Testmichi/>
+
+    </div>
     </div>
   );
 }
 }
+
 export default App;
